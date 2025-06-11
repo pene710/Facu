@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="shortcut icon" type="image/x-icon" href="sayurel.png">
+  <title>Sayulita</title>
+  <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+
+  <div class="header">
+    <div class="izquierda">
+      <img src="sayurel.png" class="logo">
+
+      <div class="social">
+        <a href="https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&cad=rja&uact=8&ved=2ahUKEwi844H2_-GNAxXqke4BHXwQMYcQFnoECAkQAQ&url=https%3A%2F%2Fwww.facebook.com%2Fgroups%2F508373309292706%2F%3Flocale%3Des_LA&usg=AOvVaw3Y3kmTOLV_moTPQ1hf5lvS&opi=89978449" target="_blank"><img src="f.png"></a>
+        <a href="https://www.instagram.com/sayulitalifedotcom/?hl=es" target="_blank"><img src="i.png"></a>
+        <a href="https://www.youtube.com/playlist?list=PL8IHbYk8nlikb94iraZcKv8esOJ4DwHt4" target="_blank"><img src="y.png"></a>
+        <a href="https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&ved=2ahUKEwiP4f_UgOKNAxXkL0QIHVy2CYAQFnoECBsQAQ&url=https%3A%2F%2Ftwitter.com%2Fsayulitam&usg=AOvVaw3o9PiVGAHXKWcslEAqRP5Q&opi=89978449" target="_blank"><img src="x.png"></a>
+      </div>
+    </div>
+
+    <div class="botones">
+      <a href="1.html" class="btn">Que Hacer</a>
+      <a href="2.html" class="btn">Conoce Sayulita</a>
+      <a href="3.html" class="btn">Planea tu viaje</a>
+      <a href="4.html" class="btn">Directorio</a>
+    </div>
+
+    <a href="google.com" target="_blank"><img src="lupa.jpg" class="lupa"></a>
+  </div>
+
+
+<div class="punto"></div>
+
+
+
+<div class="casa">
+<a href="INDEX.HTML"><img src="casa.jpg"></a>
+</div>
+
+
+<div class="grupo15">
+  <h1 class="titulo15">Referencias</h1>
+  <p class="texto15">
+    https://villaloscorales.com/es/sayulita-nayarit-su-historia-cultura-y-turismo/<br>
+    https://www.istockphoto.com/es/fotos/sayulita<br>
+    https://chatgpt.com/c/68470e5f-e6c8-8010-8ee7-da5b7af30ccc
+  </p>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script>
+  const logo = document.querySelector('.logo');
+  logo.addEventListener('click', () => {
+    logo.classList.add('girar');
+    setTimeout(() => {
+      logo.classList.remove('girar');
+    }, 400);
+  });
+</script>
+<script>
+  const imagenes = document.querySelectorAll('.imagenes2 img');
+
+  imagenes.forEach(img => {
+    img.addEventListener('click', () => {
+      if (img.classList.contains('clicked')) {
+        img.classList.remove('clicked');
+      } else {
+        imagenes.forEach(i => i.classList.remove('clicked'));
+        img.classList.add('clicked');
+      }
+    });
+  });
+</script>
+</body>
+</html>

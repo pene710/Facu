@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="shortcut icon" type="image/x-icon" href="sayurel.png">
+  <title>Sayulita</title>
+  <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+
+  <div class="header">
+    <div class="izquierda">
+      <img src="sayurel.png" class="logo">
+
+      <div class="social">
+        <a href="https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&cad=rja&uact=8&ved=2ahUKEwi844H2_-GNAxXqke4BHXwQMYcQFnoECAkQAQ&url=https%3A%2F%2Fwww.facebook.com%2Fgroups%2F508373309292706%2F%3Flocale%3Des_LA&usg=AOvVaw3Y3kmTOLV_moTPQ1hf5lvS&opi=89978449" target="_blank"><img src="f.png"></a>
+        <a href="https://www.instagram.com/sayulitalifedotcom/?hl=es" target="_blank"><img src="i.png"></a>
+        <a href="https://www.youtube.com/playlist?list=PL8IHbYk8nlikb94iraZcKv8esOJ4DwHt4" target="_blank"><img src="y.png"></a>
+        <a href="https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&ved=2ahUKEwiP4f_UgOKNAxXkL0QIHVy2CYAQFnoECBsQAQ&url=https%3A%2F%2Ftwitter.com%2Fsayulitam&usg=AOvVaw3o9PiVGAHXKWcslEAqRP5Q&opi=89978449" target="_blank"><img src="x.png"></a>
+      </div>
+    </div>
+
+    <div class="botones">
+      <a href="#" class="btn2" id="sacude">Que Hacer</a>
+      <a href="2.html" class="btn">Conoce Sayulita</a>
+      <a href="3.html" class="btn">Planea tu viaje</a>
+      <a href="4.html" class="btn">Directorio</a>
+    </div>
+
+    <a href="google.com" target="_blank"><img src="lupa.jpg" class="lupa"></a>
+  </div>
+
+<div class="punto"></div>
+
+<div class="casa">
+<a href="INDEX.HTML"><img src="casa.jpg"></a>
+</div>
+
+
+<div class="grupo6">
+  <div class="texto6">
+    <div class="titulo6">
+      <a href="#">Vida en Sayulita</a>
+    </div>
+    <p>
+      Sayulita, un pintoresco pueblo costero ubicado en la Riviera Nayarit, México, ofrece una vida tranquila, vibrante y en contacto con la naturaleza. Famoso por sus playas, su ambiente bohemio y su comunidad multicultural, Sayulita ha pasado de ser un pequeño pueblo pesquero a un destino turístico internacional sin perder del todo su esencia local.
+    </p>
+  </div>
+
+  <div class="imagenes6">
+    <img src="13.jpg">
+  </div>
+</div>
+
+
+<div class="punto"></div>
+
+
+<div class="grupo7">
+  <table class="tabla7">
+    <tr>
+      <td><img src="14.jpg"></td>
+      <td><img src="15.jpg"></td>
+      <td><img src="16.jpg"></td>
+      <td><img src="17.jpg"></td>
+      <td><img src="18.jpg"></td>
+      <td><img src="19.jpg"></td>
+      <td><img src="20.jpg"></td>
+    </tr>
+    <tr>
+      <td>Mar</td>
+      <td>Calle</td>
+      <td>Playa</td>
+      <td>Playa</td>
+      <td>Mar</td>
+      <td>Bavacia (lol)</td>
+      <td>Arena</td>
+    </tr>
+  </table>
+</div>
+
+
+
+
+<div class="grupo8"> Maria a 8km, Contactanos</div>
+<div class="imagenes8">
+  <a href="gmail.com" target="_blank"> <img src="gmail.png"> </a>
+</div>
+
+<div class="punto"></div>
+
+
+ <div class="grupo5">
+  <div class="texto5secsion1">
+    Av. Paseo de los Cocoteros No. 67 Int. 5<br>
+Nuevo Nayarit, Bahía de Banderas, Nayarit, C.P. <br>
+63735
+México</div>
+  <div class="texto5secsion2 imagenes5">
+    ---Premios y Reconocimientos---<br>
+    <img src="logo.png"><br>
+    Miss Azucena<br>
+    Facundo, Luna, Isabella<br>
+    11/06/2025<br>
+    2025 Derechos reservados
+
+  </div>
+  <div class="texto5secsion3">
+    322 420 6969<br>
+    Preguntas frecuentes<br>
+    <a href="referencias.html">Referencias</a><br>
+    <a href="referencias.html">iStock. (s. f.). Fotos de Sayulita. iStock by Getty Images</a><br>
+    <a href="referencias.html">Hola Muno</a><br>
+  </div>
+</div>
+
+
+
+<script>
+  const boton = document.getElementById('sacude');
+
+  boton.addEventListener('click', function () {
+    boton.classList.remove('shake-horizontal');
+    void boton.offsetWidth;
+    boton.classList.add('shake-horizontal');
+  });
+</script>
+<script>
+  const logo = document.querySelector('.logo');
+  logo.addEventListener('click', () => {
+    logo.classList.add('girar');
+    setTimeout(() => {
+      logo.classList.remove('girar');
+    }, 400);
+  });
+</script>
+</body>
+</html>
